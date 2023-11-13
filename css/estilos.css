@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#475d23;
+    color:#e1e1c2;
+}
+
+a {
+    color: inherit;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.header { 
+    border: 10px solid #475d23;
+    padding: 32px;
+    margin: 32px; 
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header,.main, .footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main {
+     background-color: #475d23; 
+    border: 5px solid #475d23;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: #475d23; 
+    border: 5px solid #475d23;
+    height: 300px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.header__logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+ .header__titulo {
+    text-transform: uppercase;
+    text-align:center;
+    color: #e1e1c2;
+    font-size: 20px;
+}
+
+/* Seccion 1 */
+
+.seccion1 {
+    padding: 1rem;
+}
+
+.seccion1__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.seccion1__item {
+    background-color: blue;
+    border-radius: 0.5rem;
+}
+
+.seccion1__enlace {
+    text-decoration: none;
+    background-color: #e1e1c2;
+    color:#15170a;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: inherit;
+}
+
+/* Seccion 2 */
+
+.seccion2 {
+    padding: 1rem;
+}
+
+.seccion2__mapa {
+    width: 50%; 
+    height: 400px;
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    padding: 1rem;
+}
+
+.seccion3__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.seccion3__item {
+    width: 250px;
+    height: 250px;
+    border: 2px solid  #e1e1c2 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion3__enlace {
+    color:#475d23;
+    text-transform: uppercase;
+}
+
+.seccion4 {
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.seccion4__banner {
+    display: block;
+    width: 100%;
+}
+.footer {
+    text-align: center;
+}
