@@ -102,8 +102,10 @@ img, video, iframe {
 }
 
 .seccion2__mapa {
-    width: 50%; 
-    height: 400px;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
 }
 
 /* Seccion 3 */
