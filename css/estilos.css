@@ -33,6 +33,9 @@ img, video, iframe {
     flex-direction: column;
     align-items: center;
 }
+.header__parrafo {
+    text-align: center;
+}
 
 .header,.main, .footer {
     max-width: 600px;
@@ -94,7 +97,9 @@ img, video, iframe {
     padding: 0.5rem;
     border-radius: inherit;
 }
-
+.seccion1__enlace:hover {
+    background-color: lightgreen;
+}
 /* Seccion 2 */
 
 .seccion2 {
@@ -102,8 +107,8 @@ img, video, iframe {
 }
 
 .seccion2__mapa {
-    width: 80%;
-    height: 300px;
+    width: 100%;
+    height: 600px;
     margin: 0 auto;
     display: block;
 }
@@ -155,4 +160,10 @@ img, video, iframe {
 }
 .seccion5__button:hover{
 background-color: lightseagreen;
+}
+
+
+.carousel-inner {
+   width: 500px;
+   height: 500px;
 }

@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo Orquideas Mar del Plata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon"  href="Imagenes/Logo grupo orquideas mar del plata.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header class="header">
    <img class="header__logo" src="Imagenes/Logo grupo orquideas mar del plata.jpg" alt="Logo Grupo Orquides Mar del Plata" width="200" height="200">
    <h1 class="header__titulo">Grupo Orquideas Mar del Plata</h1>
-   <p><!-- Parrafo--> </p>
+   <p class="header__parrafo">Grupo dedicado a la preservación, estudio y cultivo de las orquídeas.</p>
     </header>
     <main class="main">
          <section class="seccion1">
             <ul class="seccion1__lista">
                 <li class="seccion1__item" >
-                    <a class="seccion1__enlace" href="">Pagina del grupo</a>
+                    <a class="seccion1__enlace" href="https://orquideasmardelplata.blogspot.com/?fbclid=IwAR1SLzVUGdGdF14deBXeXSLRkdj3HnCBdSrY1zcTNzSict6N6sFbogixENM">Nuestra Historia</a>
                 </li>
                  <li class="seccion1__item">
-                    <a class="seccion1__enlace" href=" ">Facebook</a>
+                    <a class="seccion1__enlace" href="https://www.facebook.com/orquideasmardelplata/?locale=es_LA ">Facebook</a>
                 </li>
                  <li class="seccion1__item">
                     <a class="seccion1__enlace" href="">Instagram</a> 
@@ -36,17 +38,37 @@
             </ul>
         </section>
         <section class="seccion2">
-       <iframe class="seccion2__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9614671119357!2d-57.55906852467287!3d-38.00135924478175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dea88ccab107%3A0xa27e79fcab012dd5!2sAlmte.%20Brown%203165%2C%20B7600FUW%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1700968172410!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Ubicacion:</p>
+       <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9614671119357!2d-57.55906852467287!3d-38.00135924478175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dea88ccab107%3A0xa27e79fcab012dd5!2sAlmte.%20Brown%203165%2C%20B7600FUW%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1700968172410!5m2!1ses!2sar" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <section class="seccion3">
         <ul class="seccion3__lista">
-            <li class="seccion3__item">
-                <a class="seccion3__enlace" href=""></a>Entradas
-            </li>
-            <li class="seccion3__item">
-                <a class="seccion3__enlace" href=""></a>Orquideas
-            </li> <!--Productos-->
-        </ul>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Imagenes/descarga1.jpg" class="d-block w-100" alt="Imagen 1 orquidea">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/descarga (3).jpg" class="d-block w-100" alt="Imagen 2 orquidea">
+                  </div>S
+                  <div class="carousel-item">
+                    <img src="Imagenes/tipos-orquideas-phalaenopsis.jpg.webp" class="d-block w-100" alt="Imagen 3 orquidea">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
        </section>
         <section class="seccion4">
         <img class="seccion4__banner" src="Imagenes/Banner.png" alt="Banner" width="600" height="150"> <!--Banner-->          
@@ -57,5 +79,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
      <script src="main.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
