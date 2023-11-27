@@ -107,8 +107,13 @@ img, video, iframe {
 }
 
 .seccion2__mapa {
+<<<<<<< HEAD
     width: 100%;
     height: 600px;
+=======
+    width: 80%;
+    height: 300px;
+>>>>>>> 88ac9a6abcb12d96b5f9c6961335a33189a53415
     margin: 0 auto;
     display: block;
 }
